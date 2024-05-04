@@ -1,0 +1,603 @@
+
+   
+   
+   
+   
+   body {
+        margin: 0;
+        overflow-x: hidden;
+        
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 1920px; /* Центрируем содержимое */
+        
+    }
+
+    .header {
+        background-image: url(design/bg.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; /* Фиксированный фон */
+        position: relative; /* Добавим position: relative; для позиционирования дочерних элементов */
+    }
+
+    .header-line {
+        padding-top: 50px;
+        display: flex;
+        width: 10px;
+        height: 10px;
+        
+        
+        
+    }
+
+    .vector2 {
+    
+        padding-right: 1530px;
+        transform: scaleX(-1);
+        width: 10px;
+        height: 10px;
+    }
+
+    .vector3 {
+        padding-top: 100px;
+        padding-left: 150px;
+        width: 10px;
+        height: 10px;
+    
+        
+    }
+
+
+
+    .header-down {
+        position: relative;
+
+    }
+
+    .header-title {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        left: 150px;
+        padding-top: 220px;
+        text-align: justify;
+
+    }
+
+    .vector4 {
+        padding-top: 250px;
+        
+    }
+
+
+    .ramka {
+        padding-left: 250px;
+        padding-top: -100px;
+        width: 15px;
+        height: 15px;
+        z-index: 1;
+        /* Добавим position: relative; */
+    }
+
+    .ramkaname {
+        padding-left: 850px;
+        padding-top: 330px;
+        width: 15px;
+        height: 15px;
+        z-index: 3;
+        position: relative; /* Добавим position: relative; */
+    }
+
+    .ramkaskill {
+        padding-left: 850px;
+        padding-top: 30px;
+        width: 15px;
+        height: 15px;
+        z-index: 2;
+        /* Добавим position: relative; */
+    }
+
+
+    .container1{
+        margin: 0 auto;
+        max-width: 1920px; /* Центрируем содержимое */
+        padding-top: 00px;
+        background-image: url(design/bg.png);
+    }
+
+    .header-button {
+        background-color: #FFDC5C;
+        text-decoration: none;
+        padding: 25px 75px;
+        font-weight: bold;
+        color: #000;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: background-color 0.2s linear;
+        border-radius: 10cm;
+        font-size: 25px;
+        border: 8px solid black;
+        
+    
+
+    }
+
+    .button:hover {
+        background-color: #edc535 ;
+    }
+
+    .header-bth {
+        text-align: center;
+        position: absolute;
+    left: 150px;
+        padding-top: 525px;
+    }
+
+
+    .titleprog{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .smile{
+        padding-top: 200px;
+        padding-right: 200px;
+        
+
+    }
+
+    .card-title{
+        display: flex;
+        padding-top: 200px;
+        padding-left: 350px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+        text-align: justify;
+        z-index: 4;
+        white-space: nowrap; /* чтобы текст не переносился */
+        
+        
+
+        
+    }
+
+    .card-image{
+        padding-top: 100px;
+        padding-left: 140px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+        
+    }
+
+    .vector5{
+        padding-right: 1910px;
+        transform: scaleX(-1);
+        width: 10px;
+        height: 10px;
+        padding-top: 00px;
+    }
+
+    .container2{
+        padding-top: 00px;
+        background-image: url(design/bg.png);
+        margin: 0 auto;
+        max-width: 1920px; /* Центрируем содержимое */
+    }
+
+
+
+
+
+    .tarif-title{
+        display: flex;
+        padding-top: 200px;
+        padding-left: 600px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+    .tarifsmile{
+        margin-top: -70px;
+        padding-right: 1000px;
+        position: relative;
+        width: 10px;
+        height: 10px;
+    }
+
+
+
+
+    .tarif-image{
+        padding-top: 100px;
+        padding-left: 140px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+        position: relative;
+    
+        
+        
+    }
+
+    .tarif-bth{
+        padding-top: 970px;
+        position: absolute;
+        top: 0; /* Располагаем кнопку сверху относительно родительского элемента */
+        left: 0; /* Располагаем кнопку слева относительно родительского элемента */
+        z-index: 1; 
+        left: 275px;
+    
+    }
+
+    .tarif-button {
+        background-color: #FFDC5C;
+        padding: 20px 82px;
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border: 8px solid rgb(4, 4, 4);
+        border-radius: 45px;
+        
+    }
+
+    .tarif-bth2 {
+        position: absolute; /* Абсолютное позиционирование */
+        top: 0; /* Располагаем кнопку сверху относительно родительского элемента */
+        left: 0; /* Располагаем кнопку слева относительно родительского элемента */
+        z-index: 2; /* Устанавливаем z-index, чтобы кнопка была поверх изображения */
+        /* Укажите необходимое смещение кнопки с помощью top и left */
+        left: 975px;
+        padding-top: 970px;
+
+    }
+
+    .tarif-button2 {
+        background-color: #FFDC5C;
+        padding: 20px 82px;
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border: 8px solid rgb(0, 0, 0);
+        border-radius: 45px;
+        
+    }
+
+    .container3{
+        padding-top: 00px;
+        background-image: url(design/bg.png);
+        margin: 0 auto;
+        max-width: 1920px; /* Центрируем содержимое */
+    }
+
+    .otziv-title{
+        display: flex;
+        padding-top: 200px;
+        padding-left: 600px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+        text-align: justify;
+        z-index: 4;
+        white-space: nowrap; /* чтобы текст не переносился */
+    }
+
+    .otzivprog{
+        display: flex;
+        
+    }
+
+
+    .otzivsmile{
+        padding-top: 200px;
+        padding-right: 500px;
+    }
+
+    .otziv-image{
+        padding-top: 100px;
+        padding-left: 140px;
+        display: flex;
+        margin-right: 100px;
+        
+        
+    }
+
+
+
+    body {
+        font-family: "IBM Plex Sans", sans-serif;
+        background-color: rgba(0,0,0,.1);
+    }
+    
+    h2 {
+        display: flex;
+        padding-top: -500px;
+        padding-left: 700px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+        text-align: justify;
+        z-index: 4;
+        white-space: nowrap; /* чтобы текст не переносился */
+    }
+    
+    details {
+        width: 75%;
+        min-height: 5px;
+        max-width: 700px;
+        padding: 45px 70px 45px 45px;
+        margin: 0 auto;
+        position: relative;
+        font-size: 22px;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 15px;
+        box-sizing: border-box;
+        transition: all .3s;
+    }
+    
+    details + details {
+        margin-top: 20px;
+    }
+    
+    details[open] {
+        min-height: 50px;
+        background-color: #f6f7f8;
+        box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+    }
+    
+    details p {
+        color: #96999d;
+        font-weight: 300;
+    }
+    
+    summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    summary:focus {
+        outline: none;
+        
+    }
+    
+    summary:focus::after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-shadow: 0 0 0 5px rgb(243, 212, 90);
+    }
+    
+    summary::-webkit-details-marker {
+        display: none
+    }
+    
+    .control-icon {
+        fill: rgb(0, 0, 0);
+        transition: .3s ease;
+        pointer-events: none;
+    }
+    
+    .control-icon-close {
+        display: none;
+    }
+    
+    details[open] .control-icon-close {
+        display: initial;
+        transition: .3s ease;
+    }
+    
+    details[open] .control-icon-expand {
+        display: none;
+    }
+
+    
+    
+    
+    .container5{
+        padding-top: 00px;
+        background-image: url(design/bg.png);
+        margin: 0 auto;
+        max-width: 1920px; /* Центрируем содержимое */
+    }
+
+
+
+
+
+    .temi-title{
+        display: flex;
+        padding-top: 200px;
+        padding-left: 600px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+    .temismile{
+        margin-top: -70px;
+        padding-right: 1000px;
+        position: relative;
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .temi-image{
+        padding-top: 100px;
+        padding-left: 140px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+        
+        
+    }
+
+    .container6{
+        padding-top: 00px;
+        background-image: url(design/bg.png);
+        margin: 0 auto;
+        max-width: 1920px; /* Центрируем содержимое */
+    }
+
+
+
+
+
+    .prepod-title{
+        display: flex;
+        padding-top: 200px;
+        padding-left: 400px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+    .prepodsmile{
+        margin-top: -100px;
+        padding-left: 1150px;
+        position: relative;
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .prepod-image{
+        padding-top: 200px;
+        padding-left: 140px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+        position: relative;
+        
+        
+    }
+
+    .prepod-image2{
+        padding-top: 100px;
+        padding-left: 140px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+        position: relative;
+        
+        
+    }
+
+    .prepod-bth{
+        padding-top: 1110px;
+        position: absolute;
+        top: 0; /* Располагаем кнопку сверху относительно родительского элемента */
+        left: 0; /* Располагаем кнопку слева относительно родительского элемента */
+        z-index: 1; 
+        left: 292px;
+    
+    }
+
+    .prepod-button {
+        background-color: #9DDCFF;
+        padding: 15px 65px;
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border: 5px solid rgb(2, 2, 2);
+        border-radius: 45px;
+        
+    }
+
+    .prepod-bth2 {
+        position: absolute; /* Абсолютное позиционирование */
+        top: 0; /* Располагаем кнопку сверху относительно родительского элемента */
+        left: 0; /* Располагаем кнопку слева относительно родительского элемента */
+        z-index: 2; /* Устанавливаем z-index, чтобы кнопка была поверх изображения */
+        /* Укажите необходимое смещение кнопки с помощью top и left */
+        left: 980px;
+        padding-top: 1110px;
+
+    }
+
+    .prepod-button2 {
+        background-color: #9DDCFF;
+        padding: 15px 65px;
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border: 5px solid rgb(2, 2, 2);
+        border-radius: 45px;
+        
+    }
+
+    .prepod-bth3{
+        padding-top: 990px;
+        position: absolute;
+        top: 0; /* Располагаем кнопку сверху относительно родительского элемента */
+        left: 0; /* Располагаем кнопку слева относительно родительского элемента */
+        z-index: 1; 
+        left: 286px;
+    
+    }
+
+    .prepod-button3 {
+        background-color: #9DDCFF;
+        padding: 15px 65px;
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border: 5px solid rgb(2, 2, 2);
+        border-radius: 45px;
+        
+    }
+
+    .prepod-bth4 {
+        position: absolute; /* Абсолютное позиционирование */
+        top: 0; /* Располагаем кнопку сверху относительно родительского элемента */
+        left: 0; /* Располагаем кнопку слева относительно родительского элемента */
+        z-index: 2; /* Устанавливаем z-index, чтобы кнопка была поверх изображения */
+        /* Укажите необходимое смещение кнопки с помощью top и left */
+        left: 984px;
+        padding-top: 990px;
+
+    }
+
+    .prepod-button4 {
+        background-color: #9DDCFF;
+        padding: 15px 65px;
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border: 5px solid rgb(2, 2, 2);
+        border-radius: 45px;
+        
+    }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form2</title> 
+  <link rel="stylesheet" href="d.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h2><a>ЗАПИСЬ НА ОБУЧЕНИЕ</a></h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="57006db4-90ee-4d2e-900d-9468cf6f11ca">
+      <div class="input-box">
+        <input type="text" name="Name" id="Name" autocomplete="off" placeholder="Напишите свое Ф.И.О" required>
+      </div>
+      <div class="input-box">
+        <input type="number" name="number" id="number" autocomplete="off" placeholder="Напишите свой номер телефона" required>
+      </div>
+      <div class="input-box">
+        <input type="email" name="email" id="email" autocomplete="off"  placeholder="Напишите свой адрес электронной почты" required>
+      </div>
+      <div class="input-box">
+        <input type="username" name="username" id="username" autocomplete="off" placeholder="Ваш username в Instagram" required>
+      </div>
+      <div class="input-box">
+        <select type="select" name="teacher" id="teacher" autocomplete="off" required>
+          <option value="" class="select">Выберите преподавателя</option>
+          <option value="Анастасия">Анастасия</option>
+          <option value="Батухан">Батухан</option>
+          <option value="Динара">Динара</option>
+          <option value="Дила">Дила</option>
+          <!-- Добавьте другие варианты, если необходимо -->
+        </select>
+      </div>
+      <div class="input-box button">
+        <input type="Submit" value="Отправить форму">
+      </div>
+    </form>
+    <!-- hCaptcha Spam Protection -->
+    <div class="h-captcha" data-captcha="true"></div>
+    <!-- Required for hCaptcha -->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+  </div>
+</body>
+</html>
